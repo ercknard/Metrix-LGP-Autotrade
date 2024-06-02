@@ -264,32 +264,39 @@ body {
   color: white !important;
 }
 
-.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root,
+.css-1km1ehz {
   color: white;
 }
 
-.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input,
+.css-qiwgdb {
   background: #48305e;
 }
 
-.css-1wc848c-MuiFormHelperText-root {
+.css-1wc848c-MuiFormHelperText-root,
+.css-v7esy {
   color: #f5f5f590;
   margin-left: 0 !important;
 }
 
-.css-9mgopn-MuiDivider-root {
+.css-9mgopn-MuiDivider-root,
+.css-39bbo6 {
   border-color: #ffffff75;
 }
 
-.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input,
+.css-qiwgdb {
   color: white !important;
 }
 
-.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root,
+.css-1ald77x {
   color: #ffffff90 !important;
 }
 
-.css-dpjnhs-MuiInputBase-root-MuiOutlinedInput-root {
+.css-dpjnhs-MuiInputBase-root-MuiOutlinedInput-root,
+.css-1v4ccyo {
   color: white;
   border: solid #ffffff75 !important;
   background: #48305e !important;
