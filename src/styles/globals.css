@@ -1,0 +1,289 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: linear-gradient(
+      to bottom,
+      rgba(40, 27, 54, 0.75),
+      rgba(40, 27, 54, 0.25),
+      rgba(40, 27, 54, 0.75)
+    ),
+    black;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll !important;
+  width: 100vw !important;
+  min-height: 100vh !important;
+}
+
+.wavev1 {
+  position: absolute;
+  left: 50%;
+  width: 100vw;
+  height: 100px;
+  background: url("/images/waves.webp");
+  background-size: 1000px 100px;
+  transform: translateX(-50%) scale(-1);
+  top: 1.25rem !important;
+}
+
+.wavev3 {
+  position: absolute;
+  left: 50%;
+  width: 100vw;
+  height: 100px;
+  background: url("/images/waves2.webp");
+  background-size: 1000px 100px;
+  transform: translateX(-50%) scale(-1);
+  top: 0 !important;
+  z-index: -1 !important;
+}
+
+.wavev2 {
+  position: absolute;
+  left: 50%;
+  width: 100vw;
+  height: 100px;
+  background: url("/images/waves2.webp");
+  background-size: 1000px 100px;
+  transform: translateX(-50%);
+  bottom: 0 !important;
+  z-index: 100;
+}
+
+.wave {
+  position: absolute;
+  left: 50%;
+  width: 100vw;
+  height: 100px;
+  background: url("/images/waves.webp");
+  background-size: 1000px 100px;
+  z-index: 20;
+  transform: translateX(-50%);
+  bottom: 0 !important;
+}
+
+.wave#wave1 {
+  z-index: 0 !important;
+  opacity: 1 !important;
+  bottom: 0 !important;
+  animation: animateWaves 8s linear infinite !important;
+}
+
+.wave#wave2 {
+  z-index: 0 !important;
+  opacity: 0.5 !important;
+  bottom: 10px !important;
+  animation: animate 8s linear infinite !important ;
+}
+
+.wave#wave3 {
+  opacity: 0.2 !important;
+  bottom: 15px !important;
+  animation: animateWaves 6s linear infinite !important;
+}
+
+.wave#wave4 {
+  z-index: 0 !important;
+  opacity: 0.7 !important;
+  bottom: 20px !important;
+  animation: animate 6s linear infinite !important;
+}
+
+.wavev1#wave1 {
+  z-index: 0 !important;
+  opacity: 1 !important;
+  bottom: 0 !important;
+  animation: animateWaves 8s linear infinite !important;
+}
+
+.wavev1#wave2 {
+  z-index: 0 !important;
+  opacity: 0.5 !important;
+  bottom: 10px !important;
+  animation: animate 8s linear infinite !important ;
+}
+
+.wavev1#wave3 {
+  opacity: 0.2 !important;
+  bottom: 15px !important;
+  animation: animateWaves 6s linear infinite !important;
+}
+
+.wavev1#wave4 {
+  z-index: 0 !important;
+  opacity: 0.7 !important;
+  bottom: 20px !important;
+  animation: animate 6s linear infinite !important;
+}
+
+.wavev2#wave1 {
+  z-index: 0 !important;
+  opacity: 1 !important;
+  bottom: 0 !important;
+  animation: animateWaves 8s linear infinite !important;
+}
+
+.wavev2#wave2 {
+  z-index: 0 !important;
+  opacity: 0.5 !important;
+  bottom: 10px !important;
+  animation: animate 8s linear infinite !important ;
+}
+
+.wavev2#wave3 {
+  opacity: 0.2 !important;
+  bottom: 15px !important;
+  animation: animateWaves 6s linear infinite !important;
+}
+
+.wavev2#wave4 {
+  z-index: 0 !important;
+  opacity: 0.7 !important;
+  bottom: 20px !important;
+  animation: animate 6s linear infinite !important;
+}
+
+.wavev3#wave1 {
+  z-index: 0 !important;
+  opacity: 1 !important;
+  bottom: 0 !important;
+  animation: animateWaves 8s linear infinite !important;
+}
+
+.wavev3#wave2 {
+  z-index: 100 !important;
+  opacity: 0.5 !important;
+  bottom: 10px !important;
+  animation: animate 8s linear infinite !important ;
+}
+
+.wavev3#wave3 {
+  opacity: 0.2 !important;
+  bottom: 15px !important;
+  animation: animateWaves 6s linear infinite !important;
+}
+
+.wavev3#wave4 {
+  z-index: 0 !important;
+  opacity: 0.7 !important;
+  bottom: 20px !important;
+  animation: animate 6s linear infinite !important;
+}
+
+@keyframes animateWaves {
+  0% {
+    background-position-x: 1000px;
+  }
+  100% {
+    background-position-x: 0px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: -1000px;
+  }
+  100% {
+    background-position-x: 0px;
+  }
+}
+
+@-webkit-keyframes animateWaves {
+  0% {
+    background-position-x: 1000px !important;
+  }
+  100% {
+    background-position-x: 0px !important;
+  }
+}
+
+@-webkit-keyframes animate {
+  0% {
+    background-position-x: -1000px !important;
+  }
+  100% {
+    background-position-x: 0px !important;
+  }
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #4d3b51;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #b28eb2;
+  border-radius: 10px;
+}
+
+.Mui-selected {
+  color: #ffd36b !important;
+  background: #48305e !important;
+  border-radius: 0.375rem !important;
+}
+
+.css-1aquho2-MuiTabs-indicator {
+  background-color: #ffd36b !important;
+}
+
+.css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+  background: #48305e !important;
+}
+
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root {
+  color: azure !important;
+  background: #48305e !important;
+  padding: 2px 5px !important;
+  border-radius: 8px !important;
+}
+
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  border: solid #ffffff75 !important;
+}
+
+.css-bpeome-MuiSvgIcon-root-MuiSelect-icon,
+.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {
+  fill: white !important;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select {
+  background: #48305e !important;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  color: white !important;
+}
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+  color: white;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  background: #48305e;
+}
+
+.css-1wc848c-MuiFormHelperText-root {
+  color: #f5f5f590;
+  margin-left: 0 !important;
+}
+
+.css-9mgopn-MuiDivider-root {
+  border-color: #ffffff75;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  color: white !important;
+}
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+  color: #ffffff90 !important;
+}
+
+.css-dpjnhs-MuiInputBase-root-MuiOutlinedInput-root {
+  color: white;
+  border: solid #ffffff75 !important;
+  background: #48305e !important;
+}
