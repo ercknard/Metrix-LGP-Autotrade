@@ -7,69 +7,68 @@ import TextField from "@mui/material/TextField";
 import MenuItem from "@mui/material/MenuItem";
 import Divider from "@mui/material/Divider";
 
-const govs = [
-  {
-    value: "1",
-    label: "gov 1",
-  },
-  {
-    value: "2",
-    label: "gov 2",
-  },
-  {
-    value: "3",
-    label: "gov 3",
-  },
-  {
-    value: "4",
-    label: "gov 4",
-  },
-];
-
-export default function StandardTX() {
+export default function Dashboard() {
   return (
     <>
       <div className="bg-[#342344] p-4 rounded-md drop-shadow-md mb-4">
         <div className="flex flex-col gap-4 justify-end">
+          <Stack spacing={2} direction="row">
+            <Button
+              className="bg-[#ffd36b] text-[#5e1e64] hover:bg-[#ffe66b] font-semibold min-w-[105.19px]"
+              variant="contained"
+            >
+              Attempt Trade
+            </Button>
+          </Stack>
+        </div>
+      </div>
+      <div className="bg-[#342344] p-4 rounded-md drop-shadow-md mb-4">
+        <div className="flex flex-col gap-4 justify-end">
           <Typography className="text-[#f5f5f5]" variant="h6">
-            Manage AutoGovernor
+            Balance
           </Typography>
           <Stack spacing={2} direction="row">
             <Button
               className="bg-[#ffd36b] text-[#5e1e64] hover:bg-[#ffe66b] font-semibold min-w-[105.19px]"
               variant="contained"
             >
-              Create
+              Deposit
             </Button>
             <Button
               className="bg-[#ffd36b] text-[#5e1e64] hover:bg-[#ffe66b] font-semibold min-w-[105.19px]"
               variant="contained"
             >
-              Manage
+              Transfer
+            </Button>
+          </Stack>
+        </div>
+      </div>
+      <div className="bg-[#342344] p-4 rounded-md drop-shadow-md mb-4">
+        <div className="flex flex-col gap-4 justify-end">
+          <Typography className="text-[#f5f5f5]" variant="h6">
+            Governor
+          </Typography>
+          <Stack spacing={2} direction="row">
+            <Button
+              className="bg-[#ffd36b] text-[#5e1e64] hover:bg-[#ffe66b] font-semibold min-w-[105.19px]"
+              variant="contained"
+            >
+              Mint
+            </Button>
+            <Button
+              className="bg-[#ffd36b] text-[#5e1e64] hover:bg-[#ffe66b] font-semibold min-w-[105.19px]"
+              variant="contained"
+            >
+              Manage Gov
             </Button>
           </Stack>
         </div>
       </div>
       <div className="bg-[#342344] p-4 rounded-md drop-shadow-md">
         <Typography className="text-[#f5f5f5]" variant="h6" gutterBottom>
-          Execute AutoGovernor Transaction
+          Execute Transaction
         </Typography>
-        <div className="mt-8">
-          <TextField
-            className="min-w-full"
-            id="outlined-select-currency"
-            select
-            label="Select AutoGovernor"
-          >
-            {govs.map((option) => (
-              <MenuItem key={option.value} value={option.value}>
-                {option.label}
-              </MenuItem>
-            ))}
-          </TextField>
-
-          <Divider className="mt-8 mb-4" />
-
+        <div>
           <TextField
             className="mt-4 min-w-full"
             id="outlined-basic"

@@ -35,7 +35,11 @@ export default function Balances() {
         >
           MRX
         </Typography>
-        <Typography className="text-[#e3e3e3]" variant="subtitle1" gutterBottom>
+        <Typography
+          className="text-[#e3e3e3] font-inconsolata text-lg"
+          variant="subtitle1"
+          gutterBottom
+        >
           1234567890.00000000
         </Typography>
       </div>
@@ -47,7 +51,11 @@ export default function Balances() {
         >
           wMRX
         </Typography>
-        <Typography className="text-[#e3e3e3]" variant="subtitle1" gutterBottom>
+        <Typography
+          className="text-[#e3e3e3] font-inconsolata text-lg"
+          variant="subtitle1"
+          gutterBottom
+        >
           1234567890.00000000
         </Typography>
       </div>
@@ -59,7 +67,11 @@ export default function Balances() {
         >
           gMRX
         </Typography>
-        <Typography className="text-[#e3e3e3]" variant="subtitle1" gutterBottom>
+        <Typography
+          className="text-[#e3e3e3] font-inconsolata text-lg"
+          variant="subtitle1"
+          gutterBottom
+        >
           1234567890.00000000
         </Typography>
       </div>
@@ -72,7 +84,11 @@ export default function Balances() {
         >
           g
         </Typography>
-        <Typography className="text-[#e3e3e3]" variant="subtitle1" gutterBottom>
+        <Typography
+          className="text-[#e3e3e3] font-inconsolata text-lg"
+          variant="subtitle1"
+          gutterBottom
+        >
           1234567890.00000000
         </Typography>
       </div>

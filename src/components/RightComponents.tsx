@@ -4,6 +4,7 @@ import Tab from "@mui/material/Tab";
 import TabContext from "@mui/lab/TabContext";
 import TabList from "@mui/lab/TabList";
 import TabPanel from "@mui/lab/TabPanel";
+import Dashboard from "./Dashboard";
 import StandardTX from "./StandardTX";
 
 export default function RightComponents() {
@@ -28,23 +29,23 @@ export default function RightComponents() {
             />
             <Tab
               className="text-[#e3e3e3] font-semibold"
-              label="Standard Tx"
+              label="AutoGovernor"
               value="2"
             />
             <Tab
               className="text-[#e3e3e3] font-semibold"
-              label="MultiDelegateCall Tx"
+              label="MultiDelegateCall"
               value="3"
             />
             <Tab
               className="text-[#e3e3e3] font-semibold"
-              label="MultiCall Tx"
+              label="MultiCall"
               value="4"
             />
           </TabList>
         </Box>
         <TabPanel className="bg-[#48305e]" value="1">
-          Dashboard goes here
+          <Dashboard />
         </TabPanel>
         <TabPanel className="bg-[#48305e]" value="2">
           <StandardTX />

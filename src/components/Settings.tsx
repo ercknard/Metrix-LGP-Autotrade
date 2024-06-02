@@ -8,7 +8,7 @@ export default function Settings() {
   return (
     <div className="bg-[#342344] p-4 rounded-md drop-shadow-md">
       <Stack className="flex justify-between" direction="row">
-        <Typography className="text-[#f5f5f5]" variant="h6" gutterBottom>
+        <Typography className="text-[#f5f5f5]" variant="h6">
           Settings
         </Typography>
         <Button className="bg-[#ffd36b] text-[#5e1e64] hover:bg-[#ffe66b] font-semibold">
@@ -47,7 +47,11 @@ export default function Settings() {
         >
           Minimum Sell
         </Typography>
-        <Typography className="text-[#e3e3e3]" variant="subtitle1" gutterBottom>
+        <Typography
+          className="text-[#e3e3e3] font-inconsolata text-lg"
+          variant="subtitle1"
+          gutterBottom
+        >
           1.00000000
         </Typography>
       </div>
@@ -59,7 +63,11 @@ export default function Settings() {
         >
           Maximum Buy
         </Typography>
-        <Typography className="text-[#e3e3e3]" variant="subtitle1" gutterBottom>
+        <Typography
+          className="text-[#e3e3e3] font-inconsolata text-lg"
+          variant="subtitle1"
+          gutterBottom
+        >
           1.00000000
         </Typography>
       </div>
@@ -71,7 +79,11 @@ export default function Settings() {
         >
           Trading Rounds
         </Typography>
-        <Typography className="text-[#e3e3e3]" variant="subtitle1" gutterBottom>
+        <Typography
+          className="text-[#e3e3e3] font-inconsolata text-lg"
+          variant="subtitle1"
+          gutterBottom
+        >
           1
         </Typography>
       </div>
@@ -83,7 +95,11 @@ export default function Settings() {
         >
           Slippage
         </Typography>
-        <Typography className="text-[#e3e3e3]" variant="subtitle1" gutterBottom>
+        <Typography
+          className="text-[#e3e3e3] font-inconsolata text-lg"
+          variant="subtitle1"
+          gutterBottom
+        >
           0.5%
         </Typography>
       </div>

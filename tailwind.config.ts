@@ -24,6 +24,9 @@ const config: Config = {
         pxl: "1800px",
         qxl: "1921px",
       },
+      fontFamily: {
+        inconsolata: ["Inconsolata", "monospace"],
+      },
     },
   },
   plugins: [],
