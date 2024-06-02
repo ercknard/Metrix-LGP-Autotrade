@@ -243,12 +243,15 @@ body {
   border-radius: 8px !important;
 }
 
-.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root,
+.css-1v4ccyo {
   border: solid #ffffff75 !important;
 }
 
 .css-bpeome-MuiSvgIcon-root-MuiSelect-icon,
-.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {
+.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon,
+.css-1yhq19e,
+.css-1636szt {
   fill: white !important;
 }
 
